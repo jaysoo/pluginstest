@@ -48,7 +48,7 @@
       "inputs": ["production", "^production"]
     }
   },
-  "plugins": ["@org/foo"],
+  "plugins": ["@org/foo", "@org/bar"],
   "generators": {
     "@nx/angular:application": {
       "e2eTestRunner": "none",

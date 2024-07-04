@@ -1,9 +1,9 @@
 import type { CreateDependencies } from '@nx/devkit'
 
-export const foo = 'foo';
+export const bar = 'bar';
 
 export const createDependencies: CreateDependencies = () => {
-  console.log('>>> foo createDependencies');
+  console.log('>>> bar createDependencies');
   return [];
 };
 
