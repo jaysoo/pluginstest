@@ -41,8 +41,14 @@
           "codeCoverage": true
         }
       }
+    },
+    "@nx/js:tsc": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
     }
   },
+  "plugins": ["@org/foo"],
   "generators": {
     "@nx/angular:application": {
       "e2eTestRunner": "none",
